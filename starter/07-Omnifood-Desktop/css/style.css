@@ -616,3 +616,7 @@
 .footer-link:active {
   color: #555;
 }
+
+.social-link {
+  display: block;
+}
