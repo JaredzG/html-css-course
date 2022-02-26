@@ -34,6 +34,7 @@ Accents:
 Greys: 
 #333
 #555
+#767676 (lightest grey allowed on #fff)
 #6f6f6f (lightest grey allowed on #fdf2e9)
 #888
 #aaa (placeholder text color)
@@ -103,8 +104,16 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--vert-center {
   align-items: center;
+}
+
+.logo-img {
+  height: 2.2rem;
 }
 
 .heading-primary,
